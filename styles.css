@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-h1 {
+    color: darkolivegreen;
+}
+
+.lasagna {
+    background-color: orange;
+    list-style-type: square;
+}
+
+.chicken-alfredo {
+    background-color: powderblue;
+    list-style-type: square;
+}
+
+.banana-bread {
+    background-color: darkgoldenrod;
+    list-style-type: square;
+}
+
+.lasagna,
+.chicken-alfredo,
+.banana-bread {
+    color: darkgoldenrod;
+}
+
+.box {
+    padding: 10px;
+    margin: 0.5em 0;
+    border-radius: 0.5em;
+    width: 15em;
+}
