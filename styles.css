@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
 }
 
 .main-h1 {
@@ -27,9 +28,93 @@
     color: darkgoldenrod;
 }
 
+
 .box {
-    padding: 10px;
-    margin: 0.5em 0;
+    height: 100px;
+    width: 80%;
+    background-image: url(https://mdn.github.io/shared-assets/images/examples/big-star.png);
+    background-position: right 40px;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    margin: 20px 0;
     border-radius: 0.5em;
-    width: 15em;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+
+.b-ing {
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    list-style-position: inside;
+}
+
+.b-steps {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 0;
+    list-style-position: inside;
+    width: 100%;
+}
+
+.b-desc-wrapper {
+    background-color: #d3d3d3;
+    padding: 10px;
+    width: 100%;
+    display: block;
+}
+
+.b-desc {
+    margin: 0;
+    padding: 10px;
+    background: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    padding-left: 20px;
+}
+
+.img-wr {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#btn {
+    background-color: darkolivegreen;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 5px;
+}
+
+#btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid darkolivegreen;
+}
+
+#btn:hover {
+    background-color: darkolivegreen;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.img-ed {
+    border-radius: 2%;
 }
